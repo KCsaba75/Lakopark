@@ -98,16 +98,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="For-Lakopark.cs">
+    <Compile Include="Adatbazis.cs" />
+    <Compile Include="Form-Lakopark.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="For-Lakopark.Designer.cs">
-      <DependentUpon>For-Lakopark.cs</DependentUpon>
+    <Compile Include="Form-Lakopark.Designer.cs">
+      <DependentUpon>Form-Lakopark.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lakopark.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="For-Lakopark.resx">
-      <DependentUpon>For-Lakopark.cs</DependentUpon>
+    <EmbeddedResource Include="Form-Lakopark.resx">
+      <DependentUpon>Form-Lakopark.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -12,9 +12,17 @@ namespace Lakopark_inform
 {
     public partial class Form1 : Form
     {
+
+        List<Lakopark> Lakoparkok= new List<Lakopark>();
+        Adatbazis db = new Adatbazis();
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Lakoparkok = db.parkadatokBetoltese();
         }
     }
 }
