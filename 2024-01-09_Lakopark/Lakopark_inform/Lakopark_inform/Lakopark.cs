@@ -28,5 +28,10 @@ namespace Lakopark_inform
             TelekSzam = telekSzam;
             this.hazak = new int[utcaSzam, telekSzam];
         }
+
+        internal void HazAdat(int utcaszam, int hazszam, int emelet)
+        {
+            this.hazak[utcaszam - 1, hazszam - 1]=emelet;
+        }
     }
 }

@@ -57,6 +57,37 @@ namespace Lakopark_inform
         internal List<Lakopark> parkadatokBetoltese()
         {
             List<Lakopark> lp = new List<Lakopark>();
+            sql.CommandText = "Select * from lakopark NATURAL JOIN epuletek";
+            try
+            {
+                kapcsolatNyit();
+                using(MySqlDataReader dr= sql.ExecuteReader())
+                {
+                    int aktualisId = -1;
+                    int lakoparkIndex = -1;
+
+
+                    while (dr.Read())
+                    {
+                        if(aktualisId != dr.GetInt32("lakoparkId"))
+                        {
+                            lp.Add(new Lakopark(dr.GetInt32("lakoparkId"), dr.GetString("lakoparkNev"), dr.GetInt32("utcakSzama"), dr.GetInt32("telkekSzama")));
+                            aktualisId = dr.GetInt32("lakoparkId");
+                            lakoparkIndex++;
+                        }
+                        lp[lakoparkIndex].HazAdat(dr.GetInt32("utcaSzam"), dr.GetInt32("hazSzam"), dr.GetInt32("emelet"));
+                    }
+                }
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+              
+            }
+            finally
+            {
+                kapcsolatZár();
+            }
             return lp;
         }
     }
