@@ -23,6 +23,7 @@ namespace Lakopark_inform
             sb.Database = "lakopark";
             sb.CharacterSet = "utf8";
             connetion = new MySqlConnection(sb.ConnectionString);
+            sql=connetion.CreateCommand();
 
             try
             {
@@ -57,7 +58,7 @@ namespace Lakopark_inform
         internal List<Lakopark> parkadatokBetoltese()
         {
             List<Lakopark> lp = new List<Lakopark>();
-            sql.CommandText = "Select * from lakopark NATURAL JOIN epuletek";
+            sql.CommandText = "Select * from lakopark NATURAL JOIN epuletek;";
             try
             {
                 kapcsolatNyit();

@@ -41,3 +41,12 @@ C:\01_Szoftverfejlesztő és tesztelő technikus\C#\C#_munkak\2024-01-09_Lakopar
 C:\01_Szoftverfejlesztő és tesztelő technikus\C#\C#_munkak\2024-01-09_Lakopark\Lakopark_inform\Lakopark_inform\obj\Debug\Lakopark_inform.csproj.CopyComplete
 C:\01_Szoftverfejlesztő és tesztelő technikus\C#\C#_munkak\2024-01-09_Lakopark\Lakopark_inform\Lakopark_inform\obj\Debug\Lakopark_inform.exe
 C:\01_Szoftverfejlesztő és tesztelő technikus\C#\C#_munkak\2024-01-09_Lakopark\Lakopark_inform\Lakopark_inform\obj\Debug\Lakopark_inform.pdb
+C:\01_Szoftverfejlesztő és tesztelő technikus\C#\C#_munkak\2024-01-09_Lakopark\Lakopark_inform\Lakopark_inform\bin\Debug\Kepek\balnyil.jpg
+C:\01_Szoftverfejlesztő és tesztelő technikus\C#\C#_munkak\2024-01-09_Lakopark\Lakopark_inform\Lakopark_inform\bin\Debug\Kepek\Haz1.jpg
+C:\01_Szoftverfejlesztő és tesztelő technikus\C#\C#_munkak\2024-01-09_Lakopark\Lakopark_inform\Lakopark_inform\bin\Debug\Kepek\Haz2.jpg
+C:\01_Szoftverfejlesztő és tesztelő technikus\C#\C#_munkak\2024-01-09_Lakopark\Lakopark_inform\Lakopark_inform\bin\Debug\Kepek\Haz3.jpg
+C:\01_Szoftverfejlesztő és tesztelő technikus\C#\C#_munkak\2024-01-09_Lakopark\Lakopark_inform\Lakopark_inform\bin\Debug\Kepek\jobbnyil.jpg
+C:\01_Szoftverfejlesztő és tesztelő technikus\C#\C#_munkak\2024-01-09_Lakopark\Lakopark_inform\Lakopark_inform\bin\Debug\Kepek\kereszt.jpg
+C:\01_Szoftverfejlesztő és tesztelő technikus\C#\C#_munkak\2024-01-09_Lakopark\Lakopark_inform\Lakopark_inform\bin\Debug\Kepek\Puskás Ferenc.jpg
+C:\01_Szoftverfejlesztő és tesztelő technikus\C#\C#_munkak\2024-01-09_Lakopark\Lakopark_inform\Lakopark_inform\bin\Debug\Kepek\Van Gogh.jpg
+C:\01_Szoftverfejlesztő és tesztelő technikus\C#\C#_munkak\2024-01-09_Lakopark\Lakopark_inform\Lakopark_inform\bin\Debug\Kepek\Vivaldi.jpg
